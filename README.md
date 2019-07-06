@@ -1,0 +1,2 @@
+# bzga_beratungsstellensuche_dependencies
+For non composer based installations
