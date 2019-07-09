@@ -1,5 +1,5 @@
 {
-    "name": "schreibersebastian/bzga_beratungsstellensuche_dependencies",
+    "name": "bzga/bzga_beratungsstellensuche_dependencies",
     "description": "Dependencies in non composer mode installations",
     "type": "metapackage",
     "license": "MIT",
