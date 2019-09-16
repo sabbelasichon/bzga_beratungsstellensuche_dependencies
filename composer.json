@@ -13,6 +13,9 @@
         "bzga_beratungsstellensuche_dependencies": "self.version",
         "bzga/bzga-beratungsstellensuche-dependencies": "self.version"
     },
+    "config": {
+        "preferred-install": "dist"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {

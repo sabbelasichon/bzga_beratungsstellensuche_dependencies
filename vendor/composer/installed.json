@@ -1,20 +1,25 @@
 [
     {
         "name": "beberlei/assert",
-        "version": "v3.2.1",
-        "version_normalized": "3.2.1.0",
+        "version": "v3.2.3",
+        "version_normalized": "3.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/beberlei/assert.git",
-            "reference": "ce139b6bf8f07fb8389d2c8e15b98dc24fdd93c7"
+            "reference": "65b8152224aef7d3c197d5db05211d4319711b66"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/beberlei/assert/zipball/ce139b6bf8f07fb8389d2c8e15b98dc24fdd93c7",
-            "reference": "ce139b6bf8f07fb8389d2c8e15b98dc24fdd93c7",
+            "url": "https://api.github.com/repos/beberlei/assert/zipball/65b8152224aef7d3c197d5db05211d4319711b66",
+            "reference": "65b8152224aef7d3c197d5db05211d4319711b66",
             "shasum": ""
         },
         "require": {
+            "ext-ctype": "*",
+            "ext-intl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-simplexml": "*",
             "php": "^7"
         },
         "require-dev": {
@@ -22,7 +27,7 @@
             "phpstan/phpstan-shim": "*",
             "phpunit/phpunit": ">=6.0.0 <8"
         },
-        "time": "2019-05-28T15:18:28+00:00",
+        "time": "2019-08-23T17:56:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -225,7 +230,7 @@
         ],
         "authors": [
             {
-                "name": "William Durand",
+                "name": "William DURAND",
                 "email": "william.durand1@gmail.com"
             }
         ],
@@ -234,17 +239,17 @@
     },
     {
         "name": "geocoder-php/nominatim-provider",
-        "version": "5.1.0",
-        "version_normalized": "5.1.0.0",
+        "version": "5.1.1",
+        "version_normalized": "5.1.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/geocoder-php/nominatim-provider.git",
-            "reference": "85e8a063754011484d31778bb371c444bbf313ed"
+            "reference": "337ddc834bd955189232c0b38ba89087be148f46"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/geocoder-php/nominatim-provider/zipball/85e8a063754011484d31778bb371c444bbf313ed",
-            "reference": "85e8a063754011484d31778bb371c444bbf313ed",
+            "url": "https://api.github.com/repos/geocoder-php/nominatim-provider/zipball/337ddc834bd955189232c0b38ba89087be148f46",
+            "reference": "337ddc834bd955189232c0b38ba89087be148f46",
             "shasum": ""
         },
         "require": {
@@ -261,7 +266,7 @@
             "php-http/message": "^1.0",
             "phpunit/phpunit": "^6.5 || ^7.5"
         },
-        "time": "2019-02-06T12:18:09+00:00",
+        "time": "2019-08-14T07:26:34+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -619,7 +624,7 @@
         },
         "time": "2018-07-02T15:55:56+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -828,22 +833,22 @@
     },
     {
         "name": "php-http/message",
-        "version": "1.7.2",
-        "version_normalized": "1.7.2.0",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/php-http/message.git",
-            "reference": "b159ffe570dffd335e22ef0b91a946eacb182fa1"
+            "reference": "ce8f43ac1e294b54aabf5808515c3554a19c1e1c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-http/message/zipball/b159ffe570dffd335e22ef0b91a946eacb182fa1",
-            "reference": "b159ffe570dffd335e22ef0b91a946eacb182fa1",
+            "url": "https://api.github.com/repos/php-http/message/zipball/ce8f43ac1e294b54aabf5808515c3554a19c1e1c",
+            "reference": "ce8f43ac1e294b54aabf5808515c3554a19c1e1c",
             "shasum": ""
         },
         "require": {
             "clue/stream-filter": "^1.4",
-            "php": "^5.4 || ^7.0",
+            "php": "^7.1",
             "php-http/message-factory": "^1.0.2",
             "psr/http-message": "^1.0"
         },
@@ -866,11 +871,11 @@
             "slim/slim": "Used with Slim Framework PSR-7 implementation",
             "zendframework/zend-diactoros": "Used with Diactoros Factories"
         },
-        "time": "2018-11-01T09:32:41+00:00",
+        "time": "2019-08-05T06:55:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.6-dev"
+                "dev-master": "1.8-dev"
             }
         },
         "installation-source": "dist",
@@ -1006,17 +1011,17 @@
     },
     {
         "name": "phpseclib/phpseclib",
-        "version": "2.0.20",
-        "version_normalized": "2.0.20.0",
+        "version": "2.0.22",
+        "version_normalized": "2.0.22.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpseclib/phpseclib.git",
-            "reference": "d6819a55b05e123db1e881d8b230d57f912126be"
+            "reference": "cbddb5244edff6d2599977f1a1e4c8657f292e7c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d6819a55b05e123db1e881d8b230d57f912126be",
-            "reference": "d6819a55b05e123db1e881d8b230d57f912126be",
+            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/cbddb5244edff6d2599977f1a1e4c8657f292e7c",
+            "reference": "cbddb5244edff6d2599977f1a1e4c8657f292e7c",
             "shasum": ""
         },
         "require": {
@@ -1034,9 +1039,9 @@
             "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
             "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
         },
-        "time": "2019-06-23T16:33:11+00:00",
+        "time": "2019-09-15T22:48:44+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "files": [
                 "phpseclib/bootstrap.php"
@@ -1194,17 +1199,17 @@
     },
     {
         "name": "symfony/event-dispatcher",
-        "version": "v4.3.2",
-        "version_normalized": "4.3.2.0",
+        "version": "v4.3.4",
+        "version_normalized": "4.3.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "d257021c1ab28d48d24a16de79dfab445ce93398"
+            "reference": "429d0a1451d4c9c4abe1959b2986b88794b9b7d2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d257021c1ab28d48d24a16de79dfab445ce93398",
-            "reference": "d257021c1ab28d48d24a16de79dfab445ce93398",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/429d0a1451d4c9c4abe1959b2986b88794b9b7d2",
+            "reference": "429d0a1451d4c9c4abe1959b2986b88794b9b7d2",
             "shasum": ""
         },
         "require": {
@@ -1231,7 +1236,7 @@
             "symfony/dependency-injection": "",
             "symfony/http-kernel": ""
         },
-        "time": "2019-06-13T11:03:18+00:00",
+        "time": "2019-08-26T08:55:16+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1326,31 +1331,31 @@
     },
     {
         "name": "symfony/inflector",
-        "version": "v4.3.2",
-        "version_normalized": "4.3.2.0",
+        "version": "v4.3.4",
+        "version_normalized": "4.3.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/inflector.git",
-            "reference": "889dc28cb6350ddb302fe9b8c796e4e6eb836856"
+            "reference": "b25a8dc15fada858432efa083c1ecd2cef5991a7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/inflector/zipball/889dc28cb6350ddb302fe9b8c796e4e6eb836856",
-            "reference": "889dc28cb6350ddb302fe9b8c796e4e6eb836856",
+            "url": "https://api.github.com/repos/symfony/inflector/zipball/b25a8dc15fada858432efa083c1ecd2cef5991a7",
+            "reference": "b25a8dc15fada858432efa083c1ecd2cef5991a7",
             "shasum": ""
         },
         "require": {
             "php": "^7.1.3",
             "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2019-05-30T09:28:08+00:00",
+        "time": "2019-08-06T18:44:23+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "4.3-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Inflector\\": ""
@@ -1386,17 +1391,17 @@
     },
     {
         "name": "symfony/polyfill-ctype",
-        "version": "v1.11.0",
-        "version_normalized": "1.11.0.0",
+        "version": "v1.12.0",
+        "version_normalized": "1.12.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
-            "reference": "82ebae02209c21113908c229e9883c419720738a"
+            "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
-            "reference": "82ebae02209c21113908c229e9883c419720738a",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+            "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
             "shasum": ""
         },
         "require": {
@@ -1405,14 +1410,14 @@
         "suggest": {
             "ext-ctype": "For best performance"
         },
-        "time": "2019-02-06T07:57:58+00:00",
+        "time": "2019-08-06T08:03:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.11-dev"
+                "dev-master": "1.12-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Ctype\\": ""
@@ -1427,12 +1432,12 @@
         ],
         "authors": [
             {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            },
-            {
                 "name": "Gert de Pagter",
                 "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
             }
         ],
         "description": "Symfony polyfill for ctype functions",
@@ -1446,31 +1451,31 @@
     },
     {
         "name": "symfony/polyfill-php70",
-        "version": "v1.11.0",
-        "version_normalized": "1.11.0.0",
+        "version": "v1.12.0",
+        "version_normalized": "1.12.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php70.git",
-            "reference": "bc4858fb611bda58719124ca079baff854149c89"
+            "reference": "54b4c428a0054e254223797d2713c31e08610831"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/bc4858fb611bda58719124ca079baff854149c89",
-            "reference": "bc4858fb611bda58719124ca079baff854149c89",
+            "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/54b4c428a0054e254223797d2713c31e08610831",
+            "reference": "54b4c428a0054e254223797d2713c31e08610831",
             "shasum": ""
         },
         "require": {
             "paragonie/random_compat": "~1.0|~2.0|~9.99",
             "php": ">=5.3.3"
         },
-        "time": "2019-02-06T07:57:58+00:00",
+        "time": "2019-08-06T08:03:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.11-dev"
+                "dev-master": "1.12-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Php70\\": ""
@@ -1507,17 +1512,17 @@
     },
     {
         "name": "symfony/property-access",
-        "version": "v3.4.29",
-        "version_normalized": "3.4.29.0",
+        "version": "v3.4.31",
+        "version_normalized": "3.4.31.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/property-access.git",
-            "reference": "27959b5664694ad57e095fdce9f4ef9f144e63ab"
+            "reference": "5bd3b72aa0361a42c5d0316a6577892c6e04ca20"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/property-access/zipball/27959b5664694ad57e095fdce9f4ef9f144e63ab",
-            "reference": "27959b5664694ad57e095fdce9f4ef9f144e63ab",
+            "url": "https://api.github.com/repos/symfony/property-access/zipball/5bd3b72aa0361a42c5d0316a6577892c6e04ca20",
+            "reference": "5bd3b72aa0361a42c5d0316a6577892c6e04ca20",
             "shasum": ""
         },
         "require": {
@@ -1531,14 +1536,14 @@
         "suggest": {
             "psr/cache-implementation": "To cache access methods."
         },
-        "time": "2019-06-05T15:56:22+00:00",
+        "time": "2019-08-26T07:52:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "3.4-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\PropertyAccess\\": ""
@@ -1577,17 +1582,17 @@
     },
     {
         "name": "symfony/serializer",
-        "version": "v3.4.29",
-        "version_normalized": "3.4.29.0",
+        "version": "v3.4.31",
+        "version_normalized": "3.4.31.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/serializer.git",
-            "reference": "c060c0e0b97dc13b3c3fd8f981a68fa32a24371c"
+            "reference": "758c3cb8cd4a949ee76ee457450abdc80ea82aa1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/serializer/zipball/c060c0e0b97dc13b3c3fd8f981a68fa32a24371c",
-            "reference": "c060c0e0b97dc13b3c3fd8f981a68fa32a24371c",
+            "url": "https://api.github.com/repos/symfony/serializer/zipball/758c3cb8cd4a949ee76ee457450abdc80ea82aa1",
+            "reference": "758c3cb8cd4a949ee76ee457450abdc80ea82aa1",
             "shasum": ""
         },
         "require": {
@@ -1623,7 +1628,7 @@
             "symfony/property-info": "To deserialize relations.",
             "symfony/yaml": "For using the default YAML mapping loader."
         },
-        "time": "2019-06-14T05:50:06+00:00",
+        "time": "2019-08-26T07:52:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1704,7 +1709,7 @@
         ],
         "authors": [
             {
-                "name": "William Durand",
+                "name": "William DURAND",
                 "email": "william.durand1@gmail.com"
             }
         ],
